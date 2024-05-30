@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Weather App | Zidan</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div style="overflow: hidden">
+        <div class="left-info" id="leftInfo">
+          <div class="pic-gradient"></div>
+          <div class="today-info">
+            <h2>Oniday</h2>
+            <span>863294 AC</span>
+            <div>
+              <i class="bx bx-current-location"></i>
+              <span>Fuwawafu, Isekai</span>
+            </div>
+          </div>
+          <div class="today-weather">
+            <i class="bx bx-sun"></i>
+            <div>
+              <h1 class="weather-temp">25°C</h1>
+              <h3>Sunny</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="overflow: hidden">
+        <div class="mid-line">
+          <p>|</p>
+        </div>
+      </div>
+
+      <div style="overflow: hidden" class="oko">
+        <div class="right-info" id="rightInfo">
+          <div class="search-box">
+            <input type="text" placeholder="Enter location" />
+            <button class="bx bx-search"></button>
+          </div>
+
+          <div class="day-info">
+            <div>
+              <span class="title">PRECIPITATION</span>
+              <span class="value">4 %</span>
+            </div>
+            <div>
+              <span class="title">HUMIDITY</span>
+              <span class="value">34 %</span>
+            </div>
+            <div>
+              <span class="title">WIND SPEED</span>
+              <span class="value">99999 km/h</span>
+            </div>
+          </div>
+
+          <ul class="days-list">
+            <li>
+              <i class="bx bx-cloud"></i>
+              <span>Sat</span>
+              <span class="day-temp">23°C</span>
+            </li>
+            <li>
+              <i class="bx bx-sun"></i>
+              <span>Sun</span>
+              <span class="day-temp">28°C</span>
+            </li>
+            <li>
+              <i class="bx bx-cloud-rain"></i>
+              <span>Mon</span>
+              <span class="day-temp">02°C</span>
+            </li>
+            <li>
+              <i class="bx bx-cloud-drizzle"></i>
+              <span>Tue</span>
+              <span class="day-temp">140°C</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <p>
+      Kirara by: Yujiu1 in alphacoders.com<br />
+      Copyright &copy; 2024 Zidan Farabi
+    </p>
+    <script src="script.js"></script>
+  </body>
+</html>
